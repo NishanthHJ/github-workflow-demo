@@ -1,5 +1,4 @@
 const featureFlags = {
     searchBar: true
-
 };
 
