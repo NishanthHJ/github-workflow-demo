@@ -1,0 +1,5 @@
+const featureFlags = {
+    searchBar: false
+
+};
+

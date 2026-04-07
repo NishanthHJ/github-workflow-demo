@@ -20,6 +20,18 @@
 
    </nav>
    <button>Dark mode</button>
+
+   <script src="featureFlags.js"></script>
+   <script>
+      if (featureFlags.searchBar) {
+         const input = document.createElement('input');
+         input.type = "text";
+         input.placeholder = "Search products"
+         document.body.insertBefore(input,document.body.firstChild);
+      }
+         
+
+   </script>
   
    </P>
    <footer>
